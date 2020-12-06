@@ -1,14 +1,14 @@
 module.exports = {
 
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
+  author: "@sidhantmathur",
+  siteTitle: "Sidhant Mathur's personal portfolio",
+  siteShortTitle: "Sidhant M.", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Projects and info about web developer Sidhant Mathur",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -36,6 +36,18 @@ module.exports = {
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
+    // blueTheme: {
+    //   primary: "#DEDEDE",
+    //   secondary: "#1B272C",
+    //   tertiary: "#E75E76",
+    //   text: "rgba(255, 255, 255, 0.87)",
+    //   subtext: "#AAAAAA",
+    //   background: "#1B272C",
+    //   card: "#1C1C1C",
+    //   scrollBar: "rgba(255, 255, 255, 0.5)",
+    //   boxShadow: "rgba(0, 0, 0, 0.16)",
+    //   boxShadowHover: "rgba(0, 0, 0, 0.32)",
+    // },
   },
   fonts: {
     primary: "Roboto, Arial, sans-serif",
