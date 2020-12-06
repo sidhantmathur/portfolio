@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         background-color: ${({ theme }) => theme.colors.background};
         color: ${({ theme }) => theme.colors.text};
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: ${({ theme }) => theme.fonts.primary};
         line-height: 1.5rem;
         font-weight: 400;
@@ -41,6 +41,18 @@ const GlobalStyle = createGlobalStyle`
               position: fixed;
               overflow: hidden;
         }
+
+    p > a {
+        display: inline-block;
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
+        color: inherit;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            outline: 0;
+        }
+    }
 
     a {
         display: inline-block;
