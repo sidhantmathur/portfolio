@@ -97,9 +97,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h4 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
-        font-weight: 400;
+        font-weight: 700;
     }
 
     hr {

@@ -131,7 +131,7 @@ const Articles = () => {
         fetch(mediumRssFeed, { headers: { Accept: "application/json" } })
           .then(res => res.json())
           // Feed also contains comments, therefore we filter for articles only
-          .then(data => data.items.filter(item => item.categories.length > 0))
+          .then(data => data.items.filter(item => item.title.length > 0))
           .then(newArticles => newArticles.slice(0, MAX_ARTICLES))
           .then(articles => setArticles(articles))
           .catch(error => console.log(error))
@@ -147,7 +147,7 @@ const Articles = () => {
       animate={articlesControls}
     >
       <StyledContentWrapper>
-        <h3 className="section-title">Latest Articles on Medium</h3>
+        <h3 className="section-title">Latest Articles</h3>
         <div className="articles">
           {articles
             ? articles.map(item => (
@@ -161,9 +161,9 @@ const Articles = () => {
                 >
                   <div className="card">
                     <span className="category">
-                      <Underlining color="tertiary" hoverColor="secondary">
+                      {/* <Underlining color="tertiary" hoverColor="secondary">
                         {item.categories[2]}
-                      </Underlining>
+                      </Underlining> */}
                     </span>
                     <h4 className="title">{item.title}</h4>
                     <span className="date">{parseDate(item.pubDate)}</span>
