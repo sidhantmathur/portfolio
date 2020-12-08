@@ -57,7 +57,7 @@ module.exports = {
   //-- ARTICLES SECTION SETTINGS -----
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-  rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fsidhantm.com%2Frss%2F",
+  rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fblog.sidhantkmathur.com%2Frss.xml",
   shownArticles: 3,
 
   //-- SOCIAL MEDIA SETTINGS -----
