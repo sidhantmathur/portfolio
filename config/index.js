@@ -65,9 +65,14 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
+      name: "Blog",
+      url: "https://blog.sidhantkmathur.com/",
+    },
+    {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/sidhantmathur/",
     },
+    
     // {
     //   name: "Medium",
     //   url: "https://konstantinmuenster.medium.com/",
