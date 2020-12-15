@@ -1,3 +1,3 @@
 # Sidhant Mathur Portfolio
 
-## [View](sidhantkmathur.com)
+## [View](https://www.sidhantkmathur.com/)
