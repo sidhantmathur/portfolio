@@ -79,8 +79,11 @@ module.exports = {
     // },
     {
       name: "Github",
-      url:
-        "https://github.com/sidhantmathur",
+      url: "https://github.com/sidhantmathur",
+    },
+    {
+      name: "Resume",
+      url: "https://drive.google.com/file/d/19T-KS6MnPaDdYKyqE3CAqrcrC0UvEm03/view?usp=sharing",
     },
     // {
     //   name: "Behance",
